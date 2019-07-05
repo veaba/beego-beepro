@@ -21,10 +21,9 @@ func (c *MainController) Get() {
 	Name1 string
 }
 	//`json:"name"`
-	js:=JJ{Name: "n55ame"}
-	js.Name ="xxx"
-	js.Name1 ="oooo"
+	js:=JJ{"54545","n55ame"}
 	//c.Data["json"]=&js
+	js.Name="gogog"
 	c.Data["json"]=js
 	c.ServeJSON()
 }
